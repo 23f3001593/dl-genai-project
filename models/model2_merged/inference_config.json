@@ -1,0 +1,42 @@
+{
+  "wandb_project": "dl-genai",
+  "wandb_entity": "23f3001593-dl-genai-project",
+  "random_state": 42,
+  "test_size": 0.2,
+  "option_cols": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "wandb_run_name": "model2-deberta-v3-lora",
+  "model_name": "microsoft/deberta-v3-large",
+  "max_length": 128,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.1,
+  "lora_target_modules": [
+    "query_proj",
+    "value_proj"
+  ],
+  "lora_modules_to_save": [
+    "classifier",
+    "pooler"
+  ],
+  "learning_rate": 0.0002,
+  "per_device_train_batch_size": 4,
+  "per_device_eval_batch_size": 8,
+  "gradient_accumulation_steps": 4,
+  "epochs": 15,
+  "warmup_ratio": 0.06,
+  "weight_decay": 0.01,
+  "early_stopping_patience": 3
+}

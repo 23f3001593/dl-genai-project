@@ -18,7 +18,7 @@
     "E"
   ],
   "wandb_run_name": "model2-deberta-v3-lora",
-  "model_name": "microsoft/deberta-v3-large",
+  "model_name": "microsoft/deberta-v3-base",
   "max_length": 128,
   "lora_r": 8,
   "lora_alpha": 16,

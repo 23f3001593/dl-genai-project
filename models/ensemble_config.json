@@ -1,0 +1,20 @@
+{
+  "method": "weighted_average",
+  "weights": {
+    "model1": 0.3228735904662399,
+    "model2": 0.33966068758029916,
+    "model3": 0.3374657219534608
+  },
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "submission_scores_used": {
+    "model1": 0.73441,
+    "model2": 0.75353,
+    "model3": 0.75103
+  }
+}

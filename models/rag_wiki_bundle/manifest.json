@@ -1,0 +1,13 @@
+{
+  "embedding_model_name": "BAAI/bge-large-en-v1.5",
+  "query_instruction": "Represent this sentence for searching relevant passages: ",
+  "reranker_model_name": "BAAI/bge-reranker-base",
+  "embedding_dim": 1024,
+  "num_passages": 25577,
+  "num_source_articles": 486,
+  "num_source_queries": 424,
+  "used_test_csv": true,
+  "chunk_words": 150,
+  "chunk_overlap_words": 30,
+  "index_type": "IndexFlatIP"
+}
